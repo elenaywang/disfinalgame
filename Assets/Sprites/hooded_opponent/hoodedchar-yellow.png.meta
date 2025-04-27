@@ -1,148 +1,148 @@
 fileFormatVersion: 2
-guid: 948134f7981da429999ed9002662c999
+guid: 3a086c2b61d904815bd9520d862b5797
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3713219614965599903
-    second: AnimationSheet_Character_0
+      213: -5982416469258001882
+    second: hoodedchar-yellow_0
   - first:
-      213: 311313206353282233
-    second: AnimationSheet_Character_1
+      213: 4206190491799190121
+    second: hoodedchar-yellow_1
   - first:
-      213: 8850812538702202974
-    second: AnimationSheet_Character_2
+      213: 8351657870282932950
+    second: hoodedchar-yellow_2
   - first:
-      213: 5846837216380773599
-    second: AnimationSheet_Character_3
+      213: 4828428444706984
+    second: hoodedchar-yellow_3
   - first:
-      213: 4672654148239114036
-    second: AnimationSheet_Character_4
+      213: 1855113189982720168
+    second: hoodedchar-yellow_4
   - first:
-      213: 9056928846778740707
-    second: AnimationSheet_Character_5
+      213: -4581492767295390729
+    second: hoodedchar-yellow_5
   - first:
-      213: -2833313214525304144
-    second: AnimationSheet_Character_6
+      213: -2818387979445135755
+    second: hoodedchar-yellow_6
   - first:
-      213: 7085597507905639842
-    second: AnimationSheet_Character_7
+      213: -681504669195803451
+    second: hoodedchar-yellow_7
   - first:
-      213: -488417364468510912
-    second: AnimationSheet_Character_8
+      213: -8052925787524286889
+    second: hoodedchar-yellow_8
   - first:
-      213: -4328810906936861948
-    second: AnimationSheet_Character_9
+      213: -5397074906511561686
+    second: hoodedchar-yellow_9
   - first:
-      213: 2854689406478089322
-    second: AnimationSheet_Character_10
+      213: 6244851183989768397
+    second: hoodedchar-yellow_10
   - first:
-      213: -7422314350685951049
-    second: AnimationSheet_Character_11
+      213: 2505285634279419488
+    second: hoodedchar-yellow_11
   - first:
-      213: 8754412065439869294
-    second: AnimationSheet_Character_12
+      213: 637294979938449530
+    second: hoodedchar-yellow_12
   - first:
-      213: 1610950644729645800
-    second: AnimationSheet_Character_13
+      213: -1504468821450378747
+    second: hoodedchar-yellow_13
   - first:
-      213: -8698871921130758087
-    second: AnimationSheet_Character_14
+      213: 5576466483034325571
+    second: hoodedchar-yellow_14
   - first:
-      213: 7337240350965977037
-    second: AnimationSheet_Character_15
+      213: 2502827963686881687
+    second: hoodedchar-yellow_15
   - first:
-      213: -3594607608646050002
-    second: AnimationSheet_Character_16
+      213: -9023521152542988452
+    second: hoodedchar-yellow_16
   - first:
-      213: -2633907200055978337
-    second: AnimationSheet_Character_17
+      213: 4572851913385842994
+    second: hoodedchar-yellow_17
   - first:
-      213: 8826152934992254937
-    second: AnimationSheet_Character_18
+      213: -2480523043937594717
+    second: hoodedchar-yellow_18
   - first:
-      213: 3745119269783253895
-    second: AnimationSheet_Character_19
+      213: -4524352784097726749
+    second: hoodedchar-yellow_19
   - first:
-      213: 511153153249456005
-    second: AnimationSheet_Character_20
+      213: 1029563355953676423
+    second: hoodedchar-yellow_20
   - first:
-      213: -3181080768946697116
-    second: AnimationSheet_Character_21
+      213: -7485922812081839364
+    second: hoodedchar-yellow_21
   - first:
-      213: -8200045429233390519
-    second: AnimationSheet_Character_22
+      213: 6204991896577680552
+    second: hoodedchar-yellow_22
   - first:
-      213: -4200419795541352720
-    second: AnimationSheet_Character_23
+      213: -7310221864723113681
+    second: hoodedchar-yellow_23
   - first:
-      213: 5721645191469666262
-    second: AnimationSheet_Character_24
+      213: 4561571942239009564
+    second: hoodedchar-yellow_24
   - first:
-      213: 3701378633954350243
-    second: AnimationSheet_Character_25
+      213: 3452596225115359364
+    second: hoodedchar-yellow_25
   - first:
-      213: -7828884350363752177
-    second: AnimationSheet_Character_26
+      213: -2783996946962983360
+    second: hoodedchar-yellow_26
   - first:
-      213: -6389639697227723478
-    second: AnimationSheet_Character_27
+      213: 4682871583766747822
+    second: hoodedchar-yellow_27
   - first:
-      213: 4504427564731523635
-    second: AnimationSheet_Character_28
+      213: -2459380166458723904
+    second: hoodedchar-yellow_28
   - first:
-      213: 8871655505140566702
-    second: AnimationSheet_Character_29
+      213: -638699465545609518
+    second: hoodedchar-yellow_29
   - first:
-      213: -7956169229568373306
-    second: AnimationSheet_Character_30
+      213: 438915111327323755
+    second: hoodedchar-yellow_30
   - first:
-      213: 1172661316156776261
-    second: AnimationSheet_Character_31
+      213: 4576501783026301890
+    second: hoodedchar-yellow_31
   - first:
-      213: 1682658199989020211
-    second: AnimationSheet_Character_32
+      213: -7435230999184316430
+    second: hoodedchar-yellow_32
   - first:
-      213: 1589269694107343541
-    second: AnimationSheet_Character_33
+      213: -7085180571984290583
+    second: hoodedchar-yellow_33
   - first:
-      213: -7253421342018006133
-    second: AnimationSheet_Character_34
+      213: 5179924516853584247
+    second: hoodedchar-yellow_34
   - first:
-      213: -944637137217298095
-    second: AnimationSheet_Character_35
+      213: 1099309034903633846
+    second: hoodedchar-yellow_35
   - first:
-      213: -908227023647090255
-    second: AnimationSheet_Character_36
+      213: -5204907853595478488
+    second: hoodedchar-yellow_36
   - first:
-      213: -6589396301516442169
-    second: AnimationSheet_Character_37
+      213: -5160379058044495273
+    second: hoodedchar-yellow_37
   - first:
-      213: 2241575955824274185
-    second: AnimationSheet_Character_38
+      213: 2056365432691843006
+    second: hoodedchar-yellow_38
   - first:
-      213: -4962132113712554755
-    second: AnimationSheet_Character_39
+      213: -4587129651582805040
+    second: hoodedchar-yellow_39
   - first:
-      213: 5586016737365727189
-    second: AnimationSheet_Character_40
+      213: 2672508054697274967
+    second: hoodedchar-yellow_40
   - first:
-      213: -2960336494165534132
-    second: AnimationSheet_Character_41
+      213: -89448112532213696
+    second: hoodedchar-yellow_41
   - first:
-      213: 3096850651442554691
-    second: AnimationSheet_Character_42
+      213: 3339058031707223560
+    second: hoodedchar-yellow_42
   - first:
-      213: 4123603183123714085
-    second: AnimationSheet_Character_43
+      213: -3861767283732861227
+    second: hoodedchar-yellow_43
   - first:
-      213: 520556416462525903
-    second: AnimationSheet_Character_44
+      213: 8682854551842105616
+    second: hoodedchar-yellow_44
   - first:
-      213: -580482337852342584
-    second: AnimationSheet_Character_45
+      213: 2145631237757041622
+    second: hoodedchar-yellow_45
   - first:
-      213: -7424985502434106660
-    second: AnimationSheet_Character_46
+      213: -8315927824292813404
+    second: hoodedchar-yellow_46
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -238,29 +238,29 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hoodedchar_idle_0
+      name: hoodedchar-yellow_idle_0
       rect:
         serializedVersion: 2
         x: 6
         y: 255
         width: 18
         height: 30
-      alignment: 9
-      pivot: {x: 0.5000002, y: 0.5}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9e890bf091088330800000000000000
-      internalID: 3713219614965599903
+      spriteID: 6222e6bdaef2afca0800000000000000
+      internalID: -5982416469258001882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_idle_1
+      name: hoodedchar-yellow_idle_1
       rect:
         serializedVersion: 2
         x: 38
@@ -275,14 +275,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b4439636b1025400800000000000000
-      internalID: 311313206353282233
+      spriteID: 96af05987f36f5a30800000000000000
+      internalID: 4206190491799190121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_idleblink_0
+      name: hoodedchar-yellow_2
       rect:
         serializedVersion: 2
         x: 6
@@ -297,14 +297,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e580bee3c1764da70800000000000000
-      internalID: 8850812538702202974
+      spriteID: 6d24fc3859c07e370800000000000000
+      internalID: 8351657870282932950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_idleblink_1
+      name: hoodedchar-yellow_3
       rect:
         serializedVersion: 2
         x: 38
@@ -319,14 +319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd4e8ed6873242150800000000000000
-      internalID: 5846837216380773599
+      spriteID: 8a8254a1e67211000800000000000000
+      internalID: 4828428444706984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_walk_0
+      name: hoodedchar-yellow_walk_0
       rect:
         serializedVersion: 2
         x: 5
@@ -341,14 +341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43f3c08e03a98d040800000000000000
-      internalID: 4672654148239114036
+      spriteID: 8a0df031e9faeb910800000000000000
+      internalID: 1855113189982720168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_walk_1
+      name: hoodedchar-yellow_walk_1
       rect:
         serializedVersion: 2
         x: 38
@@ -363,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ef2c3ceccca0bd70800000000000000
-      internalID: 9056928846778740707
+      spriteID: 7fb36581a944b60c0800000000000000
+      internalID: -4581492767295390729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_walk_2
+      name: hoodedchar-yellow_walk_2
       rect:
         serializedVersion: 2
         x: 70
@@ -385,14 +385,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b29cc694ac0ea8d0800000000000000
-      internalID: -2833313214525304144
+      spriteID: 57611fda01313e8d0800000000000000
+      internalID: -2818387979445135755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_walk_3
+      name: hoodedchar-yellow_walk_3
       rect:
         serializedVersion: 2
         x: 102
@@ -407,14 +407,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a5db107469155260800000000000000
-      internalID: 7085597507905639842
+      spriteID: 5c460d73d1fca86f0800000000000000
+      internalID: -681504669195803451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_run_0
+      name: hoodedchar-yellow_8
       rect:
         serializedVersion: 2
         x: 5
@@ -429,14 +429,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 04fc8b8aefac839f0800000000000000
-      internalID: -488417364468510912
+      spriteID: 756380899a24e3090800000000000000
+      internalID: -8052925787524286889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_run_1
+      name: hoodedchar-yellow_9
       rect:
         serializedVersion: 2
         x: 38
@@ -451,14 +451,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40b11384a69fce3c0800000000000000
-      internalID: -4328810906936861948
+      spriteID: a2c243ba7fcb915b0800000000000000
+      internalID: -5397074906511561686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_run_2
+      name: hoodedchar-yellow_10
       rect:
         serializedVersion: 2
         x: 70
@@ -473,14 +473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6c7231f3e4ed9720800000000000000
-      internalID: 2854689406478089322
+      spriteID: dc043e0b01b2aa650800000000000000
+      internalID: 6244851183989768397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_run_3
+      name: hoodedchar-yellow_11
       rect:
         serializedVersion: 2
         x: 102
@@ -495,14 +495,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7bb64145c64aef890800000000000000
-      internalID: -7422314350685951049
+      spriteID: 06e2d14c20094c220800000000000000
+      internalID: 2505285634279419488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_run_4
+      name: hoodedchar-yellow_12
       rect:
         serializedVersion: 2
         x: 133
@@ -517,14 +517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e69efe1046bed7970800000000000000
-      internalID: 8754412065439869294
+      spriteID: a78fe50686028d800800000000000000
+      internalID: 637294979938449530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_run_5
+      name: hoodedchar-yellow_13
       rect:
         serializedVersion: 2
         x: 166
@@ -539,14 +539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ea0cc1831f3b5610800000000000000
-      internalID: 1610950644729645800
+      spriteID: 502bcc1f39d0f1be0800000000000000
+      internalID: -1504468821450378747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_run_6
+      name: hoodedchar-yellow_14
       rect:
         serializedVersion: 2
         x: 198
@@ -561,14 +561,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 930a16a8316674780800000000000000
-      internalID: -8698871921130758087
+      spriteID: 342022f88b6936d40800000000000000
+      internalID: 5576466483034325571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_run_7
+      name: hoodedchar-yellow_15
       rect:
         serializedVersion: 2
         x: 230
@@ -583,14 +583,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcf4dfe893d13d560800000000000000
-      internalID: 7337240350965977037
+      spriteID: 799887db5c4dbb220800000000000000
+      internalID: 2502827963686881687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_duck_0
+      name: hoodedchar-yellow_16
       rect:
         serializedVersion: 2
         x: 6
@@ -605,14 +605,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2f5cbbcc636d1ec0800000000000000
-      internalID: -3594607608646050002
+      spriteID: c57a377025306c280800000000000000
+      internalID: -9023521152542988452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_duck_1
+      name: hoodedchar-yellow_17
       rect:
         serializedVersion: 2
         x: 37
@@ -627,14 +627,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f96d1594b5b727bd0800000000000000
-      internalID: -2633907200055978337
+      spriteID: 23914d35698067f30800000000000000
+      internalID: 4572851913385842994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_duck_2
+      name: hoodedchar-yellow_18
       rect:
         serializedVersion: 2
         x: 68
@@ -649,14 +649,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d71c77d45bcc7a70800000000000000
-      internalID: 8826152934992254937
+      spriteID: 3a2dde41f69639dd0800000000000000
+      internalID: -2480523043937594717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_jump_2
+      name: hoodedchar-yellow_19
       rect:
         serializedVersion: 2
         x: 70
@@ -671,14 +671,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 783b6e4222659f330800000000000000
-      internalID: 3745119269783253895
+      spriteID: 3ee2e492d154631c0800000000000000
+      internalID: -4524352784097726749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_duck_3
+      name: hoodedchar-yellow_20
       rect:
         serializedVersion: 2
         x: 99
@@ -693,20 +693,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58f214da51bf71700800000000000000
-      internalID: 511153153249456005
+      spriteID: 780c069da6eb94e00800000000000000
+      internalID: 1029563355953676423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_jump_3
+      name: hoodedchar-yellow_21
       rect:
         serializedVersion: 2
         x: 101
-        y: 97
+        y: 76
         width: 20
-        height: 31
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -715,14 +715,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46c0b1d05e78ad3d0800000000000000
-      internalID: -3181080768946697116
+      spriteID: cf26ed15dd8ac1890800000000000000
+      internalID: -7485922812081839364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_duck_4
+      name: hoodedchar-yellow_22
       rect:
         serializedVersion: 2
         x: 133
@@ -737,14 +737,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 94c6a78b026933e80800000000000000
-      internalID: -8200045429233390519
+      spriteID: 8a4a0b5214f8c1650800000000000000
+      internalID: 6204991896577680552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_jump_4
+      name: hoodedchar-yellow_23
       rect:
         serializedVersion: 2
         x: 133
@@ -759,14 +759,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fe1d33637c15b5c0800000000000000
-      internalID: -4200419795541352720
+      spriteID: f2992ebf1ffdc8a90800000000000000
+      internalID: -7310221864723113681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_duck_5
+      name: hoodedchar-yellow_24
       rect:
         serializedVersion: 2
         x: 165
@@ -781,14 +781,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6df0f50bcfd576f40800000000000000
-      internalID: 5721645191469666262
+      spriteID: c1b7b826385fd4f30800000000000000
+      internalID: 4561571942239009564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_jump_0
+      name: hoodedchar-yellow_25
       rect:
         serializedVersion: 2
         x: 6
@@ -803,14 +803,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a4d110c140fd5330800000000000000
-      internalID: 3701378633954350243
+      spriteID: 4880bde59f51aef20800000000000000
+      internalID: 3452596225115359364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_jump_1
+      name: hoodedchar-yellow_26
       rect:
         serializedVersion: 2
         x: 37
@@ -825,14 +825,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0924fc99273a5390800000000000000
-      internalID: -7828884350363752177
+      spriteID: 046df78e6814d59d0800000000000000
+      internalID: -2783996946962983360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_jump_5
+      name: hoodedchar-yellow_27
       rect:
         serializedVersion: 2
         x: 165
@@ -847,14 +847,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2dc1049c807357a0800000000000000
-      internalID: -6389639697227723478
+      spriteID: eaa103ff4e6ecf040800000000000000
+      internalID: 4682871583766747822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_jump_6
+      name: hoodedchar-yellow_28
       rect:
         serializedVersion: 2
         x: 197
@@ -869,14 +869,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 332ec403101f28e30800000000000000
-      internalID: 4504427564731523635
+      spriteID: 0c1369ad4c68eddd0800000000000000
+      internalID: -2459380166458723904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_jump_7
+      name: hoodedchar-yellow_29
       rect:
         serializedVersion: 2
         x: 229
@@ -891,14 +891,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eaaca898da37e1b70800000000000000
-      internalID: 8871655505140566702
+      spriteID: 2de0ce55832e227f0800000000000000
+      internalID: -638699465545609518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_disappear_0
+      name: hoodedchar-yellow_30
       rect:
         serializedVersion: 2
         x: 6
@@ -913,14 +913,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cd0fa24d32069190800000000000000
-      internalID: -7956169229568373306
+      spriteID: b665731e7f6571600800000000000000
+      internalID: 438915111327323755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_disappear_1
+      name: hoodedchar-yellow_31
       rect:
         serializedVersion: 2
         x: 37
@@ -935,14 +935,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54fdd570141264010800000000000000
-      internalID: 1172661316156776261
+      spriteID: 2cb7933df10038f30800000000000000
+      internalID: 4576501783026301890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_disappear_2
+      name: hoodedchar-yellow_32
       rect:
         serializedVersion: 2
         x: 69
@@ -957,14 +957,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3366eb0c7b00a5710800000000000000
-      internalID: 1682658199989020211
+      spriteID: 2f765aebcc0c0d890800000000000000
+      internalID: -7435230999184316430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_die_0
+      name: hoodedchar-yellow_die_0
       rect:
         serializedVersion: 2
         x: 6
@@ -979,14 +979,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5badf81dd583e0610800000000000000
-      internalID: 1589269694107343541
+      spriteID: 9ec90650fc16cad90800000000000000
+      internalID: -7085180571984290583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_die_1
+      name: hoodedchar-yellow_die_1
       rect:
         serializedVersion: 2
         x: 36
@@ -1001,14 +1001,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8397ce38bba65b90800000000000000
-      internalID: -7253421342018006133
+      spriteID: 771156657e9c2e740800000000000000
+      internalID: 5179924516853584247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_die_2
+      name: hoodedchar-yellow_die_2
       rect:
         serializedVersion: 2
         x: 69
@@ -1023,14 +1023,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15165825789f3e2f0800000000000000
-      internalID: -944637137217298095
+      spriteID: 6bffecb2eb7814f00800000000000000
+      internalID: 1099309034903633846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_die_3
+      name: hoodedchar-yellow_die_3
       rect:
         serializedVersion: 2
         x: 101
@@ -1045,20 +1045,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b9da1085545563f0800000000000000
-      internalID: -908227023647090255
+      spriteID: 826fcc942e374c7b0800000000000000
+      internalID: -5204907853595478488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_die_4
+      name: hoodedchar-yellow_die_4
       rect:
         serializedVersion: 2
         x: 133
-        y: 32
-        width: 24
-        height: 18
+        y: 31
+        width: 26
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1067,14 +1067,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c5f6d3d9f2cd84a0800000000000000
-      internalID: -6589396301516442169
+      spriteID: 75a94ea6696a268b0800000000000000
+      internalID: -5160379058044495273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_die_5
+      name: hoodedchar-yellow_die_5
       rect:
         serializedVersion: 2
         x: 161
@@ -1089,14 +1089,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90b66f7947dab1f10800000000000000
-      internalID: 2241575955824274185
+      spriteID: ebf5df7477da98c10800000000000000
+      internalID: 2056365432691843006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_die_6
+      name: hoodedchar-yellow_die_6
       rect:
         serializedVersion: 2
         x: 193
@@ -1111,14 +1111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfcda911227f22bb0800000000000000
-      internalID: -4962132113712554755
+      spriteID: 0dbdeb2b2ed3750c0800000000000000
+      internalID: -4587129651582805040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_die_7
+      name: hoodedchar-yellow_die_7
       rect:
         serializedVersion: 2
         x: 225
@@ -1133,14 +1133,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d7121c60a4858d40800000000000000
-      internalID: 5586016737365727189
+      spriteID: 75ee99b8ae7a61520800000000000000
+      internalID: 2672508054697274967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_attack_0
+      name: hoodedchar-yellow_attack_0
       rect:
         serializedVersion: 2
         x: 6
@@ -1155,14 +1155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4a53a1a4a5cae6d0800000000000000
-      internalID: -2960336494165534132
+      spriteID: 04030b26a6732cef0800000000000000
+      internalID: -89448112532213696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_attack_1
+      name: hoodedchar-yellow_attack_1
       rect:
         serializedVersion: 2
         x: 39
@@ -1177,14 +1177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 347aba972493afa20800000000000000
-      internalID: 3096850651442554691
+      spriteID: 806f258b697b65e20800000000000000
+      internalID: 3339058031707223560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_attack_2
+      name: hoodedchar-yellow_attack_2
       rect:
         serializedVersion: 2
         x: 70
@@ -1199,14 +1199,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52052cc4f3bf93930800000000000000
-      internalID: 4123603183123714085
+      spriteID: 5dea0efad1f386ac0800000000000000
+      internalID: -3861767283732861227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_attack_5
+      name: hoodedchar-yellow_attack_5
       rect:
         serializedVersion: 2
         x: 165
@@ -1221,14 +1221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc59cc08d43693700800000000000000
-      internalID: 520556416462525903
+      spriteID: 019aeee0632bf7870800000000000000
+      internalID: 8682854551842105616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_attack_6
+      name: hoodedchar-yellow_attack_6
       rect:
         serializedVersion: 2
         x: 193
@@ -1243,14 +1243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ce3ce5a366b1f7f0800000000000000
-      internalID: -580482337852342584
+      spriteID: 6db7d712e30d6cd10800000000000000
+      internalID: 2145631237757041622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_attack_7
+      name: hoodedchar-yellow_attack_7
       rect:
         serializedVersion: 2
         x: 224
@@ -1265,63 +1265,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd26df8560725f890800000000000000
-      internalID: -7424985502434106660
+      spriteID: 4a56d3714b3e79c80800000000000000
+      internalID: -8315927824292813404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodedchar_disappear_3
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 68
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2b81ba71e25d483bab9db49c709aaaa
-      internalID: 1741637788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hoodedchar_attack_3
+      name: hoodedchar-yellow_attack_3
       rect:
         serializedVersion: 2
         x: 100
         y: 0
-        width: 22
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75c62556d597d471585ac44c07162889
-      internalID: 1707412623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hoodedchar_attack_4
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 0
-        width: 31
+        width: 24
         height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1331,8 +1287,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ba50f2c164144b91a81a6ba10944643
-      internalID: -596640779
+      spriteID: 0edf833b89cec480995a0ae920213eb9
+      internalID: 288958607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoodedchar-yellow_attack_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be77953e5e16c46db939b0403966e7c1
+      internalID: -1623109930
       vertices: []
       indices: 
       edges: []
@@ -1341,7 +1319,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3df5ddccf01a8464597b1b88452b336c
+    spriteID: 2519b56087842409ea665dbe9e953f2c
     internalID: 0
     vertices: []
     indices: 
@@ -1351,56 +1329,55 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      hoodedchar_attack_0: -2960336494165534132
-      hoodedchar_attack_1: 3096850651442554691
-      hoodedchar_attack_2: 4123603183123714085
-      hoodedchar_attack_3: 1707412623
-      hoodedchar_attack_4: -596640779
-      hoodedchar_attack_5: 520556416462525903
-      hoodedchar_attack_6: -580482337852342584
-      hoodedchar_attack_7: -7424985502434106660
-      hoodedchar_die_0: 1589269694107343541
-      hoodedchar_die_1: -7253421342018006133
-      hoodedchar_die_2: -944637137217298095
-      hoodedchar_die_3: -908227023647090255
-      hoodedchar_die_4: -6589396301516442169
-      hoodedchar_die_5: 2241575955824274185
-      hoodedchar_die_6: -4962132113712554755
-      hoodedchar_die_7: 5586016737365727189
-      hoodedchar_disappear_0: -7956169229568373306
-      hoodedchar_disappear_1: 1172661316156776261
-      hoodedchar_disappear_2: 1682658199989020211
-      hoodedchar_disappear_3: 1741637788
-      hoodedchar_duck_0: -3594607608646050002
-      hoodedchar_duck_1: -2633907200055978337
-      hoodedchar_duck_2: 8826152934992254937
-      hoodedchar_duck_3: 511153153249456005
-      hoodedchar_duck_4: -8200045429233390519
-      hoodedchar_duck_5: 5721645191469666262
-      hoodedchar_idle_0: 3713219614965599903
-      hoodedchar_idle_1: 311313206353282233
-      hoodedchar_idleblink_0: 8850812538702202974
-      hoodedchar_idleblink_1: 5846837216380773599
-      hoodedchar_jump_0: 3701378633954350243
-      hoodedchar_jump_1: -7828884350363752177
-      hoodedchar_jump_2: 3745119269783253895
-      hoodedchar_jump_3: -3181080768946697116
-      hoodedchar_jump_4: -4200419795541352720
-      hoodedchar_jump_5: -6389639697227723478
-      hoodedchar_jump_6: 4504427564731523635
-      hoodedchar_jump_7: 8871655505140566702
-      hoodedchar_run_0: -488417364468510912
-      hoodedchar_run_1: -4328810906936861948
-      hoodedchar_run_2: 2854689406478089322
-      hoodedchar_run_3: -7422314350685951049
-      hoodedchar_run_4: 8754412065439869294
-      hoodedchar_run_5: 1610950644729645800
-      hoodedchar_run_6: -8698871921130758087
-      hoodedchar_run_7: 7337240350965977037
-      hoodedchar_walk_0: 4672654148239114036
-      hoodedchar_walk_1: 9056928846778740707
-      hoodedchar_walk_2: -2833313214525304144
-      hoodedchar_walk_3: 7085597507905639842
+      hoodedchar-yellow_10: 6244851183989768397
+      hoodedchar-yellow_11: 2505285634279419488
+      hoodedchar-yellow_12: 637294979938449530
+      hoodedchar-yellow_13: -1504468821450378747
+      hoodedchar-yellow_14: 5576466483034325571
+      hoodedchar-yellow_15: 2502827963686881687
+      hoodedchar-yellow_16: -9023521152542988452
+      hoodedchar-yellow_17: 4572851913385842994
+      hoodedchar-yellow_18: -2480523043937594717
+      hoodedchar-yellow_19: -4524352784097726749
+      hoodedchar-yellow_2: 8351657870282932950
+      hoodedchar-yellow_20: 1029563355953676423
+      hoodedchar-yellow_21: -7485922812081839364
+      hoodedchar-yellow_22: 6204991896577680552
+      hoodedchar-yellow_23: -7310221864723113681
+      hoodedchar-yellow_24: 4561571942239009564
+      hoodedchar-yellow_25: 3452596225115359364
+      hoodedchar-yellow_26: -2783996946962983360
+      hoodedchar-yellow_27: 4682871583766747822
+      hoodedchar-yellow_28: -2459380166458723904
+      hoodedchar-yellow_29: -638699465545609518
+      hoodedchar-yellow_3: 4828428444706984
+      hoodedchar-yellow_30: 438915111327323755
+      hoodedchar-yellow_31: 4576501783026301890
+      hoodedchar-yellow_32: -7435230999184316430
+      hoodedchar-yellow_8: -8052925787524286889
+      hoodedchar-yellow_9: -5397074906511561686
+      hoodedchar-yellow_attack_0: -89448112532213696
+      hoodedchar-yellow_attack_1: 3339058031707223560
+      hoodedchar-yellow_attack_2: -3861767283732861227
+      hoodedchar-yellow_attack_3: 288958607
+      hoodedchar-yellow_attack_4: -1623109930
+      hoodedchar-yellow_attack_5: 8682854551842105616
+      hoodedchar-yellow_attack_6: 2145631237757041622
+      hoodedchar-yellow_attack_7: -8315927824292813404
+      hoodedchar-yellow_die_0: -7085180571984290583
+      hoodedchar-yellow_die_1: 5179924516853584247
+      hoodedchar-yellow_die_2: 1099309034903633846
+      hoodedchar-yellow_die_3: -5204907853595478488
+      hoodedchar-yellow_die_4: -5160379058044495273
+      hoodedchar-yellow_die_5: 2056365432691843006
+      hoodedchar-yellow_die_6: -4587129651582805040
+      hoodedchar-yellow_die_7: 2672508054697274967
+      hoodedchar-yellow_idle_0: -5982416469258001882
+      hoodedchar-yellow_idle_1: 4206190491799190121
+      hoodedchar-yellow_walk_0: 1855113189982720168
+      hoodedchar-yellow_walk_1: -4581492767295390729
+      hoodedchar-yellow_walk_2: -2818387979445135755
+      hoodedchar-yellow_walk_3: -681504669195803451
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
