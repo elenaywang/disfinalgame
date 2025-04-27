@@ -33,17 +33,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    // // when player gets hit, the level restarts
-    // public void DeathByRay() {
-    //     ReloadScene();      // level restarts when player gets hit
-    // }
-
-
-    // private void ReloadScene() {
-    //     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    // }
-
-
     private void MovePlayer() {
         float inputX = 0;
         float inputY = 0;

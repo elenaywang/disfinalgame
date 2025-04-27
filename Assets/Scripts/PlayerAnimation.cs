@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class PlayerAnimation : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class PlayerAnimation : MonoBehaviour
     // public Sprite[] upAnim;
     public Sprite[] sideAnim;
     public Sprite[] idleAnim;
+    public bool facingRight = true;
 
     private Rigidbody2D rb2d;
     // private PlayerController controller;
@@ -61,10 +63,14 @@ public class PlayerAnimation : MonoBehaviour
 
         if (rb2d.linearVelocity.x < -0.01f) {
             sr.flipX = true;
+            facingRight = false;
+            Debug.Log(facingRight);
         }
 
         if (rb2d.linearVelocity.x > 0.01f) {
             sr.flipX = false;
+            facingRight = true;
+            Debug.Log(facingRight);
         }
     }
 
