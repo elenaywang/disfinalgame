@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
 
 
 public class Projectile : MonoBehaviour
@@ -8,6 +9,9 @@ public class Projectile : MonoBehaviour
     public float speed = 5;
 	public float lifeTime = 3;
 	public Vector2 direction = Vector2.right;		// default direction
+
+	[Tooltip("Which player can kill this enemy")]
+    public float player;        // 1 is Lux, 2 is Nox
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -40,8 +44,10 @@ public class Projectile : MonoBehaviour
 	{
 		Enemy enemy = other.GetComponent<Enemy>();
 		if (enemy != null) { 		// checks if we hit the enemy
-			enemy.OnHit(); 			// notify the enemy it got hit
-			Destroy(gameObject); 	// destroy this projectile
+			if (player == enemy.player) {
+				enemy.OnHit(); 			// notify the enemy it got hit
+				Destroy(gameObject); 	// destroy this projectile
+			}
 		}
 	}
 

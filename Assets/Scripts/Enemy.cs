@@ -4,6 +4,9 @@ using System.Collections;
 public class Enemy : MonoBehaviour
 {
     public float speed = 1;
+    
+    [Tooltip("Which player can kill this enemy")]
+    public float player;        // 1 is Lux, 2 is Nox
     // public GameObject enemyDeathPrefab;
 
     Vector2 direction = new Vector2();
