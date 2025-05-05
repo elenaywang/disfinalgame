@@ -1,10 +1,5 @@
 using UnityEngine;
 using System.Collections;
-// using System.Numerics;
-
-// using Vector3 = UnityEngine.Vector3;
-// using Vector2 = UnityEngine.Vector3;
-// using Quaternion = UnityEngine.Quaternion;
 
 
 // written with the help of Claude AI

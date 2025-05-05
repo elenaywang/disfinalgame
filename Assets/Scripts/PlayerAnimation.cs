@@ -40,7 +40,6 @@ public class PlayerAnimation : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         pe = GetComponent<PlayerEnergy>();
-        // controller = GetComponent<PlayerController>();
     }
 
     // Update is called once per frame

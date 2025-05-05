@@ -8,8 +8,6 @@ public class PlayerAttack : MonoBehaviour {
     public KeyCode shootButton;
     public float rateOfFire = 1;    // how fast it shoots
     public GameObject projectilePrefab;
-    // public GameObject explosionPrefab;
-    // public AudioClip laserSound;
 
     private float lastTimeFired = 0;
 	private bool isDead = false;
@@ -38,25 +36,16 @@ public class PlayerAttack : MonoBehaviour {
     }
 
 
-    // what happens when the player hits the enemy or enemy's attack
-    void OnTriggerEnter2D(Collider2D other){
+    // // what happens when the player hits the enemy or enemy's attack
+    // void OnTriggerEnter2D(Collider2D other){
 
-        // end game if player hits enemy
-        if(other.GetComponent<Enemy>() != null)
-        {
-            // Instantiate(explosionPrefab, transform.position, Quaternion.identity);
-
-            // TODO: dying animation
-
-
-			// // load the active scene again, to restard the game. The GameManager will handle this for us. We use a slight delay to see the explosion.
-			// StartCoroutine(RestartTheGameAfterSeconds(1));
-			// we can not destroy the spaceship since it needs to run the coroutine to restart the game.
-			// instead, disable update (isDead = true) and remove the renderer to "hide" the object while we reload.
-			isDead = true;
-			Destroy(GetComponent<SpriteRenderer>());
-        }
-    }
+    //     // end game if player hits enemy
+    //     if(other.GetComponent<Enemy>() != null)
+    //     {
+	// 		isDead = true;
+	// 		Destroy(GetComponent<SpriteRenderer>());
+    //     }
+    // }
 
 
 	/// shooting projectiles
@@ -82,12 +71,6 @@ public class PlayerAttack : MonoBehaviour {
 	// 	yield return new WaitForSeconds (seconds);
 	// 	SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	// }
-
-
-    // // when player gets hit, the level restarts
-    // public void DeathByRay() {
-    //     ReloadScene();      // level restarts when player gets hit
-    // }
 
 
     // private void ReloadScene() {

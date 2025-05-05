@@ -8,8 +8,6 @@ public class Enemy : MonoBehaviour
     [Tooltip("Which player can kill this enemy")]
     public float player;                // 1 is Lux, 2 is Nox
 
-    // public GameObject enemyDeathPrefab;
-
     Vector2 direction = Vector2.right;  // default direction
 
 
@@ -32,8 +30,6 @@ public class Enemy : MonoBehaviour
 
     /// evaluates a hit on the enemy. Is called by another instance when it collides with the enemy.
     public void OnHit(){ 
-        // Instantiate(enemyDeathPrefab, transform.position, transform.rotation);
-        // TODO: death animation
         Destroy(gameObject);
     }
 }
