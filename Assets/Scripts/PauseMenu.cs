@@ -2,6 +2,9 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement; 
 
+
+// CREDIT: Brackeys https://youtu.be/JivuXdrIHK0?si=hY-hF44npcNaP-Ya
+
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false; 

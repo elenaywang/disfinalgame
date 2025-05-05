@@ -14,11 +14,13 @@ public class PlayerAttack : MonoBehaviour {
     private float lastTimeFired = 0;
 	private bool isDead = false;
     private PlayerAnimation playerAnim;
+    private PlayerEnergy pe;
 
 
     void Start()
     {
         playerAnim = GetComponent<PlayerAnimation>();
+        pe = GetComponent<PlayerEnergy>();
     }
 
 
@@ -26,6 +28,7 @@ public class PlayerAttack : MonoBehaviour {
     void Update() {
 
 		if(isDead) return;
+        if (!pe.isAwake) return;           // player doesn't attack if sleeping
 
         // if the fire button is pressed and we waited long enough since the last shot was fired, FIRE!
         if (Input.GetKey(shootButton) && (lastTimeFired + 1 / rateOfFire) < Time.time) {

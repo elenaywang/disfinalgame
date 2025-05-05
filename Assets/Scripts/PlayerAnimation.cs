@@ -7,22 +7,21 @@ public class PlayerAnimation : MonoBehaviour
 {
 
     public enum AnimationState {
-        // WalkDown,
-        // WalkUp,
         WalkSide, 
-        Idle
+        Idle,
+        Sleep
     }
 
     public float animationFPS;
-    // public Sprite[] downAnim;
-    // public Sprite[] upAnim;
     public Sprite[] sideAnim;
     public Sprite[] idleAnim;
+    public Sprite[] sleepAnim;
     public bool facingRight = true;
 
     private Rigidbody2D rb2d;
     // private PlayerController controller;
     private SpriteRenderer sr;
+    private PlayerEnergy pe;
 
     private float frameTimer = 0;
     private int frameIndex = 0;
@@ -34,13 +33,13 @@ public class PlayerAnimation : MonoBehaviour
     void Start()
     {
         animationAtlas = new Dictionary<AnimationState, Sprite[]>();
-        // animationAtlas.Add(AnimationState.WalkDown, downAnim);
-        // animationAtlas.Add(AnimationState.WalkUp, upAnim);
         animationAtlas.Add(AnimationState.WalkSide, sideAnim);
         animationAtlas.Add(AnimationState.Idle, idleAnim);
+        animationAtlas.Add(AnimationState.Sleep, sleepAnim);
 
         rb2d = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        pe = GetComponent<PlayerEnergy>();
         // controller = GetComponent<PlayerController>();
     }
 
@@ -82,12 +81,16 @@ public class PlayerAnimation : MonoBehaviour
     }
 
     AnimationState GetAnimationState() {
+        if (!pe.isAwake) {
+            return AnimationState.Sleep;
+        }
+
         Vector3 velocity = rb2d.linearVelocity;
 
         if (velocity.y > 0.1f) {
-            return AnimationState.WalkSide;;
+            return AnimationState.WalkSide;
         } else if (velocity.y < -0.1f) {
-            return AnimationState.WalkSide;;
+            return AnimationState.WalkSide;
         }
         if (Mathf.Abs(velocity.x) > 0.1f) {
             return AnimationState.WalkSide;

@@ -10,10 +10,9 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode inputLeft;
 
     Rigidbody2D rb2d;
+    private PlayerEnergy pe;
 
     [Header("Animation")]
-    // public Sprite spriteUp;
-    // public Sprite spriteDown;
     public Sprite spriteSide;
     private SpriteRenderer _playerSR;
 
@@ -22,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        pe = GetComponent<PlayerEnergy>();
         _playerSR = GetComponent<SpriteRenderer>();
     }
 
@@ -29,6 +29,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!pe.isAwake) return;           // player doesn't move if sleeping
+
         MovePlayer();
     }
 

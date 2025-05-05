@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
+// CREDIT: Brackeys https://youtu.be/BLfNP4Sc_iA?si=IqENoMUrI9NdiDrx
+
 public class EnergyBar : MonoBehaviour
 {
     public Slider slider;
