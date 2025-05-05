@@ -35,7 +35,7 @@ public class TimeManager : MonoBehaviour
         timer -= Time.deltaTime;
 
         if (timer <= 0) {
-            gameTime = gameTime.AddMinutes(15);
+            gameTime = gameTime.AddMinutes(10);
             OnMinuteChanged?.Invoke();
 
             if (Minute >= 60) {
