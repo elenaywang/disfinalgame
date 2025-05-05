@@ -955,7 +955,7 @@ GameObject:
   - component: {fileID: 939209532}
   - component: {fileID: 939209534}
   m_Layer: 0
-  m_Name: border
+  m_Name: CenterLine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
