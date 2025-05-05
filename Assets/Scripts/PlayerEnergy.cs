@@ -36,6 +36,11 @@ public class PlayerEnergy : MonoBehaviour
             isAwake = false;
         }
 
+        // wake up if energy is full
+        if (currentEnergy >= maxEnergy) {
+            isAwake = true;
+        }
+
         // lose or gain energy depending on whether player is awake
         if (isAwake) {
             LoseEnergy(1);
