@@ -3,30 +3,34 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
-    public float speed = 1;
+    public float speed = 0.5f;
     
     [Tooltip("Which player can kill this enemy")]
-    public float player;        // 1 is Lux, 2 is Nox
+    public float player;                // 1 is Lux, 2 is Nox
+
     // public GameObject enemyDeathPrefab;
 
-    Vector2 direction = new Vector2();
+    Vector2 direction = Vector2.right;  // default direction
 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        direction = new Vector2(1,0);
 		// normalize direction so it does not impact the travel speed
 		direction.Normalize();
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.position = transform.position + new Vector3(direction.x, direction.y, 0) * speed * Time.deltaTime;
     }
 
-    /// evaluates a hit on the asteroid. Is called by another instance when it collides with the asteroid.
+    // sets the direction from the EnemySpawner script
+    public void SetDirection(Vector2 newDirection)
+    {
+        direction = newDirection;
+    }
+
+    /// evaluates a hit on the enemy. Is called by another instance when it collides with the enemy.
     public void OnHit(){ 
         // Instantiate(enemyDeathPrefab, transform.position, transform.rotation);
         // TODO: death animation

@@ -1,33 +1,84 @@
 using UnityEngine;
 using System.Collections;
+// using System.Numerics;
 
-public class EnemySpawner : MonoBehaviour
+// using Vector3 = UnityEngine.Vector3;
+// using Vector2 = UnityEngine.Vector3;
+// using Quaternion = UnityEngine.Quaternion;
+
+
+// written with the help of Claude AI
+
+public abstract class EnemySpawner : MonoBehaviour
 {
 
-    public float spawnWidth = 1;
-    public float spawnRate = 1;
+    public float spawnWidth = 4.5f;
+    public float spawnRate;
     public GameObject enemyPrefab;
 
+    [Tooltip("Is this the left or right spawner")]
+    public float whichSpawner;          // 1 is left, 2 is right
+
     private float lastSpawnTime = 0;
+    protected bool initialized = false;
 
 
+    protected virtual void Awake() {
+        TimeManager.OnHourChanged += TimeCheck;
+    }
 
-    // Update is called once per frame
-    void Update()
-    {
-         // spawns spawnRate asteroids every second
-        if (lastSpawnTime + 1 / spawnRate < Time.time) {
-            lastSpawnTime = Time.time;
-            Vector3 spawnPosition = transform.position;
-            spawnPosition += new Vector3(0, Random.Range(-spawnWidth, spawnWidth), 0);
-            Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);        			// creates a new GameObject copy (clone) from a Prefab at a specific location and orientation.
+    
+    public abstract void InitializeSpawnRate();
+
+
+    protected virtual void OnEnable() {
+        if (!initialized) {
+            InitializeSpawnRate();
+            initialized = true;
         }
     }
 
 
-    void ChangeSpawnRate() {
-        // adjust spawn rate with array? check for tutorials
+    protected virtual void OnDisable() {
+        TimeManager.OnHourChanged -= TimeCheck;     // unsubscribe from event
     }
+
+
+    protected virtual void Update() {
+        // only spawn if a valid spawn rate is set
+        if (spawnRate > 0) {
+            // spawns spawnRate enemies every second
+            if (lastSpawnTime + 1 / spawnRate < Time.time) {
+                lastSpawnTime = Time.time;
+                SpawnEnemy();
+            }
+        }
+    }
+
+
+    protected virtual void SpawnEnemy() {
+        GameObject newEnemy;
+
+        Vector3 spawnPosition = transform.position;
+        spawnPosition += new Vector3(0, Random.Range(-spawnWidth, spawnWidth), 0);
+
+        if (whichSpawner == 1) {
+            newEnemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+            newEnemy.GetComponent<Enemy>().SetDirection(Vector2.right);                 // left spawner creates enemies that move right
+        } else {
+            newEnemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+            newEnemy.GetComponent<Enemy>().SetDirection(Vector2.left);                 // right spawner creates enemies that move left
+        }   
+        
+    }
+
+
+    private void TimeCheck() {
+        ChangeSpawnRate();
+    }
+
+
+    public abstract void ChangeSpawnRate();
 
 
     /// Helper function called by unity to draw gizmos for debugging and orientation in the scene view. Is not part of any game logic.

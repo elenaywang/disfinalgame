@@ -63,13 +63,11 @@ public class PlayerAnimation : MonoBehaviour
         if (rb2d.linearVelocity.x < -0.01f) {
             sr.flipX = true;
             facingRight = false;
-            // Debug.Log(facingRight);
         }
 
         if (rb2d.linearVelocity.x > 0.01f) {
             sr.flipX = false;
             facingRight = true;
-            // Debug.Log(facingRight);
         }
     }
 

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerEnergy : MonoBehaviour
+public abstract class PlayerEnergy : MonoBehaviour
 {
 
     public int maxEnergy = 5000;
@@ -12,11 +12,7 @@ public class PlayerEnergy : MonoBehaviour
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        currentEnergy = maxEnergy;
-        energyBar.SetMaxEnergy(maxEnergy);
-    }
+    public abstract void Start();
 
 
     // Update is called once per frame
@@ -47,8 +43,6 @@ public class PlayerEnergy : MonoBehaviour
         } else {
             IncreaseEnergy(2);
         }
-
-        // determine when player's energy decreases
     }
 
 

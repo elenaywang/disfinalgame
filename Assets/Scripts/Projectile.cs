@@ -3,6 +3,8 @@ using System.Collections;
 using Unity.VisualScripting;
 
 
+// written with some help from Claude AI
+
 public class Projectile : MonoBehaviour
 {
 
@@ -17,12 +19,6 @@ public class Projectile : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-		// playerAnim = player.GetComponent<PlayerAnimation>();
-		// if (playerAnim.facingRight) {
-		// 	direction = Vector2.right;
-		// } else {
-		// 	direction = Vector2.left;
-		// }
 		// normalize direction so it does not impact the travel speed
 		direction.Normalize();
     }

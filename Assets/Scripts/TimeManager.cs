@@ -1,8 +1,6 @@
 using UnityEngine;
 using System;
-using Mono.Cecil.Cil;
 using System.Globalization;
-using TMPro;
 
 
 // MODIFIED FROM: Comp-3 Interactive https://youtu.be/Y_AOfPupWhU?si=x2i-JWlNpj5-3Xjy 
@@ -20,7 +18,6 @@ public class TimeManager : MonoBehaviour
     private float timer;                        // for tracking real world seconds
 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         gameTime = new DateTime(2025, 1, 1, 8, 0, 0, new GregorianCalendar());
@@ -36,18 +33,18 @@ public class TimeManager : MonoBehaviour
 
         if (timer <= 0) {
             gameTime = gameTime.AddMinutes(10);
+            Minute = gameTime.Minute;
             OnMinuteChanged?.Invoke();
 
-            if (Minute >= 60) {
-                gameTime = gameTime.AddHours(1);
-                Minute = 0; 
+            if (gameTime.Hour != Hour) {
+                // gameTime = gameTime.AddHours(1);
+                // Minute = 0; 
+                Hour = gameTime.Hour;
                 OnHourChanged?.Invoke();
             }
 
             timer = quarterhourToRealTime;
         }
-
-        // Debug.Log(gameTime);
     }
 
 }
