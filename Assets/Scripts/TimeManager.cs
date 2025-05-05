@@ -1,6 +1,7 @@
 using UnityEngine;
 using System;
 using System.Globalization;
+using UnityEngine.SceneManagement; 
 
 
 // MODIFIED FROM: Comp-3 Interactive https://youtu.be/Y_AOfPupWhU?si=x2i-JWlNpj5-3Xjy 
@@ -37,13 +38,17 @@ public class TimeManager : MonoBehaviour
             OnMinuteChanged?.Invoke();
 
             if (gameTime.Hour != Hour) {
-                // gameTime = gameTime.AddHours(1);
-                // Minute = 0; 
                 Hour = gameTime.Hour;
                 OnHourChanged?.Invoke();
             }
 
             timer = quarterhourToRealTime;
+        }
+
+        // end game after 3 days
+        if (gameTime.Equals(new DateTime(2025, 1, 4, 8, 0, 0, new GregorianCalendar()))) {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("WinScreen");
         }
     }
 

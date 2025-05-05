@@ -36,18 +36,6 @@ public class PlayerAttack : MonoBehaviour {
     }
 
 
-    // // what happens when the player hits the enemy or enemy's attack
-    // void OnTriggerEnter2D(Collider2D other){
-
-    //     // end game if player hits enemy
-    //     if(other.GetComponent<Enemy>() != null)
-    //     {
-	// 		isDead = true;
-	// 		Destroy(GetComponent<SpriteRenderer>());
-    //     }
-    // }
-
-
 	/// shooting projectiles
     void Attack(){
         // AudioSource.PlayClipAtPoint(laserSound, transform.position);
@@ -62,18 +50,4 @@ public class PlayerAttack : MonoBehaviour {
             projectile.GetComponent<Projectile>().SetDirection(Vector2.left);
         }
     }
-
-
-	// /// <summary>
-	// /// Wait seconds and reload current scene.
-	// /// </summary>
-	// IEnumerator RestartTheGameAfterSeconds(float seconds){
-	// 	yield return new WaitForSeconds (seconds);
-	// 	SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-	// }
-
-
-    // private void ReloadScene() {
-    //     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    // }
 }
