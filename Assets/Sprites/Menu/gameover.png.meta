@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e1f0acd547c704e71b53170e075e0945
+guid: 7f612c0313ad644f8bff9eddb9000bf3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4364062465439915385
-    second: gameoverscreen_0
+      213: 317010468468323505
+    second: gameover_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gameoverscreen_0
+      name: gameover_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 782a6d93f4cbf63c0800000000000000
-      internalID: -4364062465439915385
+      spriteID: 1b4722b675f366400800000000000000
+      internalID: 317010468468323505
       vertices: []
       indices: 
       edges: []
