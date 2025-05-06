@@ -1,30 +1,58 @@
 using UnityEngine;
 
+
+// written with some help from Claude AI
+
 public abstract class PlayerEnergy : MonoBehaviour
 {
 
-    public int maxEnergy = 5000;
+    public int maxEnergy = 1440;
     public int currentEnergy;
     public EnergyBar energyBar;
 
     public bool isAwake = true;
     public KeyCode inputSleep;
 
+    // Base energy drain/recovery rates as properties that can be overridden
+    [SerializeField] 
+    private int _baseEnergyLossRate = 1;
+    public virtual int BaseEnergyLossRate { 
+        get { return _baseEnergyLossRate; } 
+        protected set { _baseEnergyLossRate = value; } 
+    }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public abstract void Start();
+    public int recoveryRate = 20;
 
 
-    // Update is called once per frame
-    void Update()
+    protected virtual void Awake() {
+        // subscribe to time events
+        TimeManager.OnHourChanged += OnHourChanged;
+        TimeManager.OnMinuteChanged += OnMinuteChanged;
+    }
+
+
+    protected virtual void OnDestroy() {
+        // clean up subscriptions
+        TimeManager.OnHourChanged -= OnHourChanged;
+        TimeManager.OnMinuteChanged -= OnMinuteChanged;
+    }
+
+
+    // initialize energy values
+    public abstract void Initialize();
+
+
+    // called at the start to set initial values
+    protected virtual void Start() {
+        Initialize();
+    }
+
+
+    protected virtual void Update()
     {
-        // activate or deactivate sleep
+        // manually activate or deactivate sleep
         if (Input.GetKeyDown(inputSleep)) {
-            if (isAwake) {
-                isAwake = false;
-            } else {
-                isAwake = true;
-            }
+            isAwake = !isAwake;
         }
 
         // fall asleep if energy depletes
@@ -36,24 +64,46 @@ public abstract class PlayerEnergy : MonoBehaviour
         if (currentEnergy >= maxEnergy) {
             isAwake = true;
         }
+    }
 
+
+    // called when 15 min in game time passes
+    protected void OnMinuteChanged() {    
         // lose or gain energy depending on whether player is awake
         if (isAwake) {
-            LoseEnergy(1);
+            LoseEnergy(CalculateEnergyLossRate());
         } else {
-            IncreaseEnergy(2);
+            IncreaseEnergy(recoveryRate);
         }
     }
 
 
-    void LoseEnergy(int energy) {
-        currentEnergy -= energy;
+    // called when the hour changes
+    protected virtual void OnHourChanged() {    
+        // override in child classes 
+    }
+
+
+    // calculate energy loss based on time of day and player
+    protected virtual int CalculateEnergyLossRate() {
+        return BaseEnergyLossRate;
+    }
+
+
+    protected void LoseEnergy(int energy) {
+        currentEnergy = Mathf.Max(0, currentEnergy - energy);
         energyBar.SetEnergy(currentEnergy);
     }
 
 
-    void IncreaseEnergy(int energy) {
-        currentEnergy += energy;
+    protected void IncreaseEnergy(int energy) {
+        currentEnergy = Mathf.Min(maxEnergy, currentEnergy + energy);
+        energyBar.SetEnergy(currentEnergy);
+    }
+
+
+    protected void SetEnergy(int energy) {
+        currentEnergy = Mathf.Clamp(energy, 0, maxEnergy);
         energyBar.SetEnergy(currentEnergy);
     }
 }
