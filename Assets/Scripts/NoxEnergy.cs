@@ -23,6 +23,7 @@ public class NoxEnergy : PlayerEnergy
     {
         currentEnergy = maxEnergy/2;
         energyBar.SetMaxEnergy(maxEnergy);
+        energyBar.SetEnergy(currentEnergy);
         inputSleep = KeyCode.Tab;
 
         // Initialize base rates

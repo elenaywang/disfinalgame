@@ -19,6 +19,7 @@ public class LuxEnergy : PlayerEnergy
     public override void Initialize() {
         currentEnergy = maxEnergy;
         energyBar.SetMaxEnergy(maxEnergy);
+        energyBar.SetEnergy(currentEnergy);
         inputSleep = KeyCode.Return;
 
         // Initialize base rates
