@@ -21,7 +21,7 @@ public abstract class PlayerEnergy : MonoBehaviour
         protected set { _baseEnergyLossRate = value; } 
     }
 
-    public int recoveryRate = 20;
+    public int recoveryRate = 30;
 
 
     protected virtual void Awake() {

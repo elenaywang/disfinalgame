@@ -491,7 +491,7 @@ Transform:
   m_GameObject: {fileID: 271597681}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.32, y: -0.5, z: 0.011577639}
+  m_LocalPosition: {x: -12.32, y: -0.25, z: 0.011577639}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -509,7 +509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31b319f6b7d9c4a3187bf86e53576d7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnWidth: 4.5
+  spawnWidth: 4
   spawnRate: 0.3
   enemyPrefab: {fileID: 9202208075064250927, guid: 35c38daa385bc4ba1933718d9d1d7c91, type: 3}
   whichSpawner: 1
@@ -2309,7 +2309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31b319f6b7d9c4a3187bf86e53576d7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnWidth: 4.5
+  spawnWidth: 4
   spawnRate: 0.3
   enemyPrefab: {fileID: 9202208075064250927, guid: 35c38daa385bc4ba1933718d9d1d7c91, type: 3}
   whichSpawner: 2
@@ -2326,7 +2326,7 @@ Transform:
   m_GameObject: {fileID: 1347204025}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.32, y: -0.5, z: 0.011577639}
+  m_LocalPosition: {x: 12.32, y: -0.25, z: 0.011577639}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3584,7 +3584,7 @@ Transform:
   m_GameObject: {fileID: 1863539645}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.32, y: -0.5, z: 0.011577639}
+  m_LocalPosition: {x: -12.32, y: -0.25, z: 0.011577639}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3602,7 +3602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8e29bb8d8ab94566b45fac94580a123, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnWidth: 4.5
+  spawnWidth: 4
   spawnRate: 0
   enemyPrefab: {fileID: 5328679243377350398, guid: 227cf09def44e441a8ee772c353d6b7a, type: 3}
   whichSpawner: 1
@@ -3639,7 +3639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8e29bb8d8ab94566b45fac94580a123, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnWidth: 4.5
+  spawnWidth: 4
   spawnRate: 0
   enemyPrefab: {fileID: 5328679243377350398, guid: 227cf09def44e441a8ee772c353d6b7a, type: 3}
   whichSpawner: 2
@@ -3656,7 +3656,7 @@ Transform:
   m_GameObject: {fileID: 2012995173}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.32, y: -0.5, z: 0.011577639}
+  m_LocalPosition: {x: 12.32, y: -0.25, z: 0.011577639}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

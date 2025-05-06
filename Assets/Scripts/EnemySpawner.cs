@@ -7,7 +7,7 @@ using System.Collections;
 public abstract class EnemySpawner : MonoBehaviour
 {
 
-    public float spawnWidth = 4.5f;
+    public float spawnWidth = 4f;
     public float spawnRate;
     public GameObject enemyPrefab;
 
