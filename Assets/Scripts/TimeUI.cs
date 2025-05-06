@@ -21,6 +21,6 @@ public class TimeUI : MonoBehaviour
     }
 
     private void UpdateTime() {
-        timeText.text = $"{TimeManager.gameTime.ToShortTimeString()}";
+        timeText.text = $"Day {TimeManager.gameTime.Day}\n{TimeManager.gameTime.ToShortTimeString()}";
     } 
 }
