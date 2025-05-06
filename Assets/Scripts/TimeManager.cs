@@ -15,7 +15,7 @@ public class TimeManager : MonoBehaviour
     public static int Minute { get; private set; }
     public static int Hour { get; private set; }
 
-    private float quarterhourToRealTime = 1f;   // each real world second is 15 min in game time
+    private float tenMinToRealTime = 1f;        // each real world second is 10 min in game time
     private float timer;                        // for tracking real world seconds
 
 
@@ -24,7 +24,7 @@ public class TimeManager : MonoBehaviour
         gameTime = new DateTime(2025, 1, 1, 8, 0, 0, new GregorianCalendar());
         Minute = gameTime.Minute;
         Hour = gameTime.Hour;
-        timer = quarterhourToRealTime;
+        timer = tenMinToRealTime;
     }
 
     // Update is called once per frame
@@ -42,7 +42,7 @@ public class TimeManager : MonoBehaviour
                 OnHourChanged?.Invoke();
             }
 
-            timer = quarterhourToRealTime;
+            timer = tenMinToRealTime;
         }
 
         // end game after 3 days
