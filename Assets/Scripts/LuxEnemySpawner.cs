@@ -7,7 +7,7 @@ public class LuxEnemySpawner : EnemySpawner
 
     [Header("Time-based Spawn Settings")]
     public float morningSpawnRate = 0.35f;    // 8AM-2PM
-    public float afternoonSpawnRate = 0.3f;  // 2PM-8PM
+    public float afternoonSpawnRate = 0.3f;   // 2PM-8PM
     public float eveningSpawnRate = 0.07f;    // 8PM-2AM
     public float nightSpawnRate = 0.03f;      // 2AM-8AM
 
@@ -16,13 +16,13 @@ public class LuxEnemySpawner : EnemySpawner
     {
         // set initial spawn rate based on current time
         UpdateSpawnRateBasedOnTime();
-        Debug.Log($"LuxEnemySpawner initialized with spawn rate: {spawnRate} at hour: {TimeManager.Hour}");
+        // Debug.Log($"LuxEnemySpawner initialized with spawn rate: {spawnRate} at hour: {TimeManager.Hour}");
     }
 
 
     public override void ChangeSpawnRate() {
         UpdateSpawnRateBasedOnTime();
-        Debug.Log($"LuxEnemySpawner changed spawn rate to: {spawnRate} at hour: {TimeManager.Hour}");
+        // Debug.Log($"LuxEnemySpawner changed spawn rate to: {spawnRate} at hour: {TimeManager.Hour}");
     }
 
 
@@ -38,7 +38,6 @@ public class LuxEnemySpawner : EnemySpawner
         
         // afternoon (2pm-8pm)
         else if (currentHour >= 14 && currentHour < 20) {
-            // Afternoon (12PM-6PM)
             spawnRate = afternoonSpawnRate;
         }
         

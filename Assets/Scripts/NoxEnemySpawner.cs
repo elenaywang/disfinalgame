@@ -8,23 +8,23 @@ public class NoxEnemySpawner : EnemySpawner
 {
 
     [Header("Time-based Spawn Settings")]
-    public float morningSpawnRate = 0.1f;    // 8AM-2PM
-    public float afternoonSpawnRate = 0.15f;  // 2PM-8PM
-    public float eveningSpawnRate = 0.25f;    // 8PM-2AM
-    public float nightSpawnRate = 0.35f;      // 2AM-8AM
+    public float morningSpawnRate = 0.1f;    // 8am-2pm
+    public float afternoonSpawnRate = 0.15f;  // 2pm-8pm
+    public float eveningSpawnRate = 0.25f;    // 8pm-2pm
+    public float nightSpawnRate = 0.35f;      // 2am-8am
 
 
     public override void InitializeSpawnRate()
     {
         // set initial spawn rate based on current time
         UpdateSpawnRateBasedOnTime();
-        Debug.Log($"NoxEnemySpawner initialized with spawn rate: {spawnRate} at hour: {TimeManager.Hour}");
+        // Debug.Log($"NoxEnemySpawner initialized with spawn rate: {spawnRate} at hour: {TimeManager.Hour}");
     }
 
 
     public override void ChangeSpawnRate() {
         UpdateSpawnRateBasedOnTime();
-        Debug.Log($"NoxEnemySpawner changed spawn rate to: {spawnRate} at hour: {TimeManager.Hour}");
+        // Debug.Log($"NoxEnemySpawner changed spawn rate to: {spawnRate} at hour: {TimeManager.Hour}");
     }
 
 

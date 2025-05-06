@@ -39,6 +39,14 @@ public abstract class EnemySpawner : MonoBehaviour
     }
 
 
+    private void TimeCheck() {
+        ChangeSpawnRate();
+    }
+
+
+    public abstract void ChangeSpawnRate();
+
+
     protected virtual void Update() {
         // only spawn if a valid spawn rate is set
         if (spawnRate > 0) {
@@ -66,14 +74,6 @@ public abstract class EnemySpawner : MonoBehaviour
         }   
         
     }
-
-
-    private void TimeCheck() {
-        ChangeSpawnRate();
-    }
-
-
-    public abstract void ChangeSpawnRate();
 
 
     /// Helper function called by unity to draw gizmos for debugging and orientation in the scene view. Is not part of any game logic.
