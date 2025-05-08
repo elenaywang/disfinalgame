@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 693bcf4ecff394dcfb4a7add2908cb74
+guid: e1d3c3d436dda4741b572af8f4cc775f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4198794672902290927
-    second: howtoplay_0
+      213: 1753946086404019725
+    second: menubutton-big_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: howtoplay_0
+      name: menubutton-big_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 1
+        y: 174
+        width: 498
+        height: 152
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fedb423428d154a30800000000000000
-      internalID: 4198794672902290927
+      spriteID: d065c4b3ca4475810800000000000000
+      internalID: 1753946086404019725
       vertices: []
       indices: 
       edges: []
