@@ -19,7 +19,6 @@ public class PlayerAnimation : MonoBehaviour
     public bool facingRight = true;
 
     private Rigidbody2D rb2d;
-    // private PlayerController controller;
     private SpriteRenderer sr;
     private PlayerEnergy pe;
 

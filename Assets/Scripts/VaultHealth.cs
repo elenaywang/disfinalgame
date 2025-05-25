@@ -5,16 +5,23 @@ using UnityEngine.SceneManagement;
 public class VaultHealth : MonoBehaviour
 {
 
-    public int maxHealth = 10;
+    public int maxHealth = 16;
 	public int currentHealth;
 
 	public EnergyBar healthBar;
+
+    public Sprite[] vaultAnim;
+    public GameObject vault;
+    private SpriteRenderer sr;
+    private int frameIndex = 0;     // for vault animation
 
 
     void Start()
     {
         currentHealth = maxHealth;
 		healthBar.SetMaxEnergy(maxHealth);
+
+        sr = vault.GetComponent<SpriteRenderer>();
     }
 
 
@@ -33,6 +40,12 @@ public class VaultHealth : MonoBehaviour
         currentHealth -= damage;
 
         healthBar.SetEnergy(currentHealth);
+
+        // vault animation
+        if (currentHealth > 0 && currentHealth % 2 == 0) {
+            frameIndex++;
+            sr.sprite = vaultAnim[frameIndex];
+        }
     }
 
 

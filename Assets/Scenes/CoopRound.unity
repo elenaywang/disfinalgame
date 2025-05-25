@@ -571,7 +571,7 @@ MonoBehaviour:
   slider: {fileID: 411427372}
   gradient:
     serializedVersion: 2
-    key0: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 1}
+    key0: {r: 1, g: 1, b: 1, a: 1}
     key1: {r: 1, g: 1, b: 1, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
@@ -1428,6 +1428,16 @@ MonoBehaviour:
   maxHealth: 16
   currentHealth: 0
   healthBar: {fileID: 411427371}
+  vaultAnim:
+  - {fileID: -1974042178797025698, guid: e3c2e160c9207485bb6bdeb24f668c4f, type: 3}
+  - {fileID: 8636765217635878192, guid: e3c2e160c9207485bb6bdeb24f668c4f, type: 3}
+  - {fileID: -1554217779124698443, guid: e3c2e160c9207485bb6bdeb24f668c4f, type: 3}
+  - {fileID: -5231194349093735616, guid: e3c2e160c9207485bb6bdeb24f668c4f, type: 3}
+  - {fileID: 7821336784614134884, guid: e3c2e160c9207485bb6bdeb24f668c4f, type: 3}
+  - {fileID: 6433407361405807228, guid: e3c2e160c9207485bb6bdeb24f668c4f, type: 3}
+  - {fileID: -3243739280047491818, guid: e3c2e160c9207485bb6bdeb24f668c4f, type: 3}
+  - {fileID: 728639496510368003, guid: e3c2e160c9207485bb6bdeb24f668c4f, type: 3}
+  vault: {fileID: 1419029603}
 --- !u!60 &939209536
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2712,11 +2722,15 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 0.7924095, y: 1.5360065}
       - {x: 0.7924095, y: 2.0951638}
+      - {x: 0.16035892, y: 2.096564}
+      - {x: -0.17236342, y: 2.0973017}
       - {x: -0.7854155, y: 2.0986607}
       - {x: -0.78819746, y: 1.5400332}
       - {x: -0.7117801, y: 0.61221915}
       - {x: -0.87738234, y: -0.591523}
       - {x: -0.8833334, y: -2.0916667}
+      - {x: -0.2521981, y: -2.0916665}
+      - {x: 0.18688273, y: -2.0916662}
       - {x: 0.8833334, y: -2.0916667}
       - {x: 0.8716159, y: -0.59063655}
       - {x: 0.6986208, y: 0.6122804}
