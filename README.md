@@ -119,7 +119,7 @@ Instructor: Benno Lüders
 - Lux & Nox: https://9e0.itch.io/witches-pack
 - Demon enemies: https://penzilla.itch.io/hooded-protagonist
 - Lightning bolt: https://opengameart.org/content/game-icons-heart-diamond-star-and-lightning-bolt
-- Health bar: [https://github.com/Brackeys/Health-Bar/tree/master/Health Bar/Assets/Sprites](https://github.com/Brackeys/Health-Bar/tree/master/Health%20Bar/Assets/Sprites)
+- Health bar: https://github.com/Brackeys/Health-Bar/tree/master/Health%20Bar/Assets/Sprites
 - Vault & Elixir: Canva graphics
 - Fairy character, Sun, Cloud, and Background for intro story: Canva graphics
 
