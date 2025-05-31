@@ -1,19 +1,13 @@
 # Rest Assured Game Design Document
 
+### Play this game on itch.io [here!](https://elenaywang.itch.io/rest-assured)
+
 ## Synopsis:
 *Rest Assured* is a two-player, co-op shoot 'em up game that represents the differing experiences between people who have different circadian rhythms, specifically delayed sleep phase syndrome (DSPS) vs. a normal circadian rhythm. The main lesson from the game is that different people have different strengths and weaknesses, and we should take the time to understand those differences and work with them to benefit everyone.   
 
 The two characters are sisters named Lux and Nox. Lux is the seemingly perfect older sister with a normal circadian rhythm, while Nox is the misunderstood younger sister with DSPS. They are tasked with protecting the Supreme Elixir of Blissful Rest in the center of the game screen for 72 hours in game time.
 
 **Total playtime:** about 7 min
-
-
-
-## Inspiration: 
-- **Pixar’s *Day & Night* short film:** characters that embody day and night, each have their own strengths and it’s best when individual differences are appreciated
-- **Plants vs. Zombies:** protecting something from an opponent
-- **Degrees of Separation:** 2 characters with opposing powers working together, split-screen gameplay
-- **Fireboy and Watergirl:** 2 characters with opposing powers working together
 
 
 
@@ -25,8 +19,16 @@ The two characters are sisters named Lux and Nox. Lux is the seemingly perfect o
 
 
 
+## Inspiration: 
+- **Pixar’s *Day & Night* short film:** characters that embody day and night, each have their own strengths and it’s best when individual differences are appreciated
+- **Plants vs. Zombies:** protecting something from an opponent
+- **Degrees of Separation:** 2 characters with opposing powers working together, split-screen gameplay
+- **Fireboy and Watergirl:** 2 characters with opposing powers working together
+
+
+
 ## Original Vision for this game
-I had more ideas for this game, but my original vision proved to be too large in scope for me to finish developing by myself in the time I had. Here are the addiitonal ideas I originally had for this game:      
+I had more ideas for this game, but my original vision proved to be too large in scope. Here are the addiitonal ideas I originally had for this game:      
 - Game would consist of 2 types of rounds: a competitive round and a co-op round. 
 - Lux and Nox would each have 2 distinct powers (types of attacks).
 - There would be 4 types of opponents, one for each type of attack.
@@ -107,6 +109,11 @@ This is how the gameplay would have looked like:
 
 
 ## Attributions
+
+DIS Copenhagen    
+Game Development: Programming and Practice core course    
+Instructor: Benno Lüders    
+2025 Spring semester   
 
 ### Assets
 - Lux & Nox: https://9e0.itch.io/witches-pack
