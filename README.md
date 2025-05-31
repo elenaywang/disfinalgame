@@ -27,7 +27,7 @@ The two characters are sisters named Lux and Nox. Lux is the seemingly perfect o
 
 
 
-## Original Vision for this game
+## Original Vision for this game:
 I had more ideas for this game, but my original vision proved to be too large in scope. Here are the addiitonal ideas I originally had for this game:      
 - Game would consist of 2 types of rounds: a competitive round and a co-op round. 
 - Lux and Nox would each have 2 distinct powers (types of attacks).
@@ -108,7 +108,7 @@ This is how the gameplay would have looked like:
 
 
 
-## Attributions
+## Attributions:
 
 DIS Copenhagen    
 Game Development: Programming and Practice core course    
